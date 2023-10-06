@@ -1,6 +1,8 @@
-![Xenonauts 2 Logo](https://raw.githubusercontent.com/GoldhawkInteractive/X2-Modding/main/logo.webp)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GoldhawkInteractive/X2-Modding/main/logo.webp"/></a><br /><br />
+</p>
 
-# Xenonauts 2 Modding Guide & Examples 🛸
+# Xenonauts 2 Modding
 
 Welcome to the official Xenonauts 2 modding repository! This repo contains comprehensive documentation, tools, and examples to help both beginners and experienced modders create their own custom content for the game. Whether you're looking to design new weapons, craft missions, or overhaul game mechanics, we've got you covered!
 
@@ -8,16 +10,10 @@ Welcome to the official Xenonauts 2 modding repository! This repo contains compr
 
 - [Getting Started](#getting-started)
 - [Tools & Utilities](#tools--utilities)
-- [Modding Tutorials](#modding-tutorials)
-  - [Weapons](#weapons)
-  - [Missions](#missions)
-  - [Units](#units)
-  - [Game Mechanics](#game-mechanics)
 - [Examples](#examples)
 - [Community Contributions](#community-contributions)
 - [Support & Troubleshooting](#support--troubleshooting)
 - [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
 
 ## Getting Started
 
