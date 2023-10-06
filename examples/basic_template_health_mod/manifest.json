@@ -1,0 +1,14 @@
+{
+	"version": "0.0.4",
+	"asset": {
+		"Name": "Xenonauts Basic Health Mod",
+		"UID": "56bbba8a-7fb5-44c3-a6d3-834a2fb2d977",
+		"Description": "A basic mod for Xenonauts 2 that showcases how to change the health on the mars to generate with 100-200 HP range by overriding the template and setting the parent to be the original template.",
+		"Author": "Goldhawk Interactive",
+		"Website":"http://www.goldhawkinteractive.com/",
+		"Tags":["Official", "Mod"],
+		"Version": "1.0.0",
+		"$type": "Common.Content.DataStructures.ContentPackManifest"
+	},
+	"$type": "Common.Content.DataStructures.VersionedAsset"
+}

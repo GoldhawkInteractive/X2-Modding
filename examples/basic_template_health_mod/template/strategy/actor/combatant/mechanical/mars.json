@@ -1,0 +1,19 @@
+﻿{
+    "version": "0.1.0",
+    "asset": {
+        "Parent": {
+            "$content": "xenonauts-:-Xenonauts.GameScreens.Strategy-::-masters/actor/combatant/mechanical/xenonauts/mechanical/mars.json",
+            "$type": "Common.Content.AssetReference`1[[Artitas.Template, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+        },
+        "Name": "mars",
+        "_components": [{
+                "_min": 100.0,
+                "_val": 150.0,
+                "_max": 200.0,
+                "$type": "Xenonauts.Common.Stats.HitPoints"
+            }
+        ],
+        "$type": "Artitas.Template"
+    },
+    "$type": "Common.Content.DataStructures.VersionedAsset"
+}

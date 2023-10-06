@@ -1,0 +1,17 @@
+﻿{
+    "version": "0.1.0",
+    "asset": {
+        "Parent": {
+            "$content": "xenonauts-:-Xenonauts.GameScreens.GroundCombat-::-masters/blueprints/simple/cover/full/cover_full.json",
+            "$type": "Common.Content.AssetReference`1[[Artitas.Template, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+        },
+        "Name": "default",
+        "_components": [{
+                "$content": 80.0,
+                "$type": "Common.Components.StoppingChanceComponent"
+            }
+        ],
+        "$type": "Artitas.Template"
+    },
+    "$type": "Common.Content.DataStructures.VersionedAsset"
+}
