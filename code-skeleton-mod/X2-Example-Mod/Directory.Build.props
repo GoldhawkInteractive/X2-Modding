@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <!-- Path to Xenonauts 2 DLLs: Replace this path with the path to Xenonaut's installation folder -->
+    <GameFolder>$xenonauts_2_install/Xenonauts2_Data/Managed</GameFolder>
+    <!-- Path to all external DLLs: Replace this path with either the path to Xenonaut's installation folder or your local cache folder if you are compiling against the code base. -->
+    <CacheFolder>$mod_repo/binaries</CacheFolder>
+    <!-- Mod root folder in your home directory: Replace this with the path to your mod's root folder (E.g. My Games/Xenonauts 2/Mods/<mod_name>) so the binaries will auto-copy on build.  -->
+    <ModInstanceFolder>$home_dir/My Games/Xenonauts 2-Editor/Mods/$mod_identifier</ModInstanceFolder>
+  </PropertyGroup>
+</Project>

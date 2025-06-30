@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <RootNamespace>X2SkeletonMod</RootNamespace>
+    </PropertyGroup>
+
+      <ItemGroup>
+        <Reference Include="0Harmony">
+          <HintPath>$(CacheFolder)\0Harmony.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Log4Net">
+          <HintPath>$(CacheFolder)\log4net.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Assembly-CSharp">
+          <HintPath>$(GameFolder)\Assembly-CSharp.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Assembly-CSharp">
+          <HintPath>$(GameFolder)\Assembly-CSharp-firstpass.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="UnityEngine">
+          <HintPath>$(GameFolder)\UnityEngine.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+          <HintPath>$(GameFolder)\UnityEngine.CoreModule.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+
+
+      <!-- Copy the DLL (and PDB) after *every* build, no matter the config for easy mod debugging. -->
+      <Target Name="CopyOutputToDepot" AfterTargets="Build">
+        <ItemGroup>
+          <BuiltArtifacts Include="$(TargetPath)" />
+          <BuiltArtifacts Include="$(TargetDir)$(TargetName).pdb" />
+        </ItemGroup>
+
+        <Copy SourceFiles="@(BuiltArtifacts)"
+              DestinationFolder="$(ModInstanceFolder)/assembly/common"
+              SkipUnchangedFiles="false" />
+      </Target>
+</Project>
