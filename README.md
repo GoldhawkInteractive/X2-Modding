@@ -15,7 +15,7 @@ Welcome to the official Xenonauts 2 modding repository! This repo contains compr
 
 ## Getting Started
 
-To get started, check out the Wiki, which has a quick start tutorial on making your [first data mod](https://github.com/GoldhawkInteractive/X2-Modding/wiki/xenonauts-2-tutorial-content) and one for making your [first code mod](https://github.com/GoldhawkInteractive/X2-Modding/wiki/xenonauts-2-tutorial-code)
+To get started, check out the [wiki](https://github.com/GoldhawkInteractive/X2-Modding/wiki), which has a quick start tutorial on making your [first data mod](https://github.com/GoldhawkInteractive/X2-Modding/wiki/xenonauts-2-tutorial-content) and one for making your [first code mod](https://github.com/GoldhawkInteractive/X2-Modding/wiki/xenonauts-2-tutorial-code); as well as extensive technical documentation.
 
 ### Examples
 
