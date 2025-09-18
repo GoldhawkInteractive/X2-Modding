@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X2SkeletonMod", "X2SkeletonMod.csproj", "{EEFC8D42-4941-4009-9446-0827A424226F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X2ExampleMod", "X2-Example-Mod.csproj", "{EEFC8D42-4941-4009-9446-0827A424226F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

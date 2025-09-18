@@ -5,11 +5,11 @@ using Common.Screens.DataStructures;
 using HarmonyLib;
 using RSG;
 using Xenonauts.GroundCombat;
-using static X2SkeletonMod.ModConstants;
+using static X2ExampleMod.ModConstants;
 
-namespace X2SkeletonMod.Patches {
+namespace X2ExampleMod.Patches {
     
-    [HarmonyPatch(typeof(GroundCombatScreen), "OnSetup")]
+    [HarmonyPatch(typeof(GroundCombatScreen), nameof(GroundCombatScreen.OnSetup))]
     public static class GroundCombatScreenPatches {
         
         /// <summary>

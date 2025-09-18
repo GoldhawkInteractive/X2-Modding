@@ -1,15 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using Artitas;
 using Artitas.Utils;
+using Common.Content;
 using Common.Modding;
 using HarmonyLib;
 using log4net;
-using Xenonauts.Common.Settings;
 
-namespace X2SkeletonMod {
+namespace X2ExampleMod {
     
-    public class X2SkeletonModLifecycle : IModLifecycle {
+    public class X2ExampleModLifecycle : IModLifecycle {
         
         #region Logging
 
@@ -31,7 +33,11 @@ namespace X2SkeletonMod {
         public void OnWorldCreate(IModLifecycle.Section section, WeakReference<World> world) {
             Log.Warn($"[X2-Example-Mod] World Create: {section}");
         }
-        
+
+        public IEnumerable<Descriptor> GetRequiredAssets(IModLifecycle.Section section) {
+            return Enumerable.Empty<Descriptor>();
+        }
+
         public void OnWorldDispose(IModLifecycle.Section section, WeakReference<World> world) {
             Log.Warn($"[X2-Example-Mod] World Dispose: {section}");
         }

@@ -2,7 +2,7 @@ using System.Reflection;
 using Artitas.Utils;
 using log4net;
 
-namespace X2SkeletonMod {
+namespace X2ExampleMod {
     
     public class ModConstants {
         
